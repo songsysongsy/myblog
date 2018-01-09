@@ -1,5 +1,6 @@
-baseurl = "https://example.org"
-title = "Universal"
+#baseurl = "http://vpscloud.top/"
+#baseurl = "http://192.168.30.254:1313/"
+title = "Shuying Song"
 theme = "hugo-universal-theme"
 themesDir = "themes"
 languageCode = "en-us"
@@ -8,7 +9,7 @@ defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+#googleAnalytics = ""
 
 # Define the number of posts per page
 paginate = 10
@@ -43,7 +44,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/songsysongsy/myblog"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
@@ -61,20 +62,21 @@ paginate = 10
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:songsysongsy@gmail.com"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    author = "Shuying Song"
+    defaultKeywords = ["shuying", "all"]
+    defaultDescription = "Site template for my personal blog site"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    #style = "default"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -89,22 +91,20 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "songsysongsy@gmail.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Director of tsinghua novel, software developer.</p>"
+    copyright = "Copyright (c) 2017 - 2018, Shuying Song; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+        <br>Sichuan
+        <br>Chengdu
         <br>
-        <strong>Great Britain</strong>
+        <strong>China</strong>
       </p>
       """
     latitude = "-12.043333"
